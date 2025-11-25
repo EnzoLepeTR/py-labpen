@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<documento>
+   <meta-documento>
+      <guid></guid>
+      <iddoc></iddoc>
+      <cita>###CPLT-LP-Id###</cita> <!-- CITA OBLIGATORIO-->
+      <novus>  <!-- NOVUS OBLIGATORIO-->
+         <id/>
+         <accion>ENVIAR</accion>
+         <fecha-de-modificacion>###CPLT-Fecha-ModificacionNovus###</fecha-de-modificacion>
+      </novus>
+      <fecha-carga>###CPLT-Fecha-Carga###</fecha-carga><!--2009-12-29T12:13:49-->
+      <fecha-ultima-modificacion>###CPLT-Fecha-UltimaModificacion###</fecha-ultima-modificacion> <!-- FECHA DEL DIA actual -->
+      <pais>Chile</pais> <!-- PAIS OBLIGATORIO-->
+      <titulo>###CPLT-Titulo###</titulo><!--###Titulo de ejemplo-->
+      <sumario><![CDATA[###CPLT-Sumario###]]></sumario><!--###Sumario de ejemplo-->
+      <fecha>###CPLT-Fecha###</fecha><!---###Fecha de emision en base CPLT-->
+      <emisiones>
+         <emision>
+            <id>12077</id>
+            <emisor>CONSEJO PARA LA TRANSPARENCIA</emisor>
+            <sigla-emisor>CPT</sigla-emisor>
+            <tipo-de-norma>4400</tipo-de-norma><!--###Que tipo de norma es?-->
+            <nro-de-norma>###CPLT-ROL###</nro-de-norma><!--ROL-->
+            <orden/>
+         </emision>
+      </emisiones>
+      <jurisdiccion>###CPLT-Juridiccion###</jurisdiccion><!--###Que jurisdiccion se debe colocar aca-->
+      <productos-digitales/>
+      <fecha-publicacion/>
+      <publicacion>COPIA OFICIAL</publicacion>
+      <comentario-fiscal/>
+      <fecha-newsletter-fiscal/>
+      <apariciones/>
+      <nota-interna>ORIGEN_LEGAL_PUBLISHING</nota-interna> <!-- NOTA INTERNA OBLIGATORIO-->
+   </meta-documento>
+   <cont-documento>
+      <voces> 
+        ###CPLT-Voces###     
+       </voces>
+      <collection-sets> <!-- CS OBLIGATORIO-->
+         ###CPLT-Collection###<!--###Cual es el collection set para estos documentos-->
+         <!-- SE DEBEN CARGAR CS PREVIAMENTE CARGADAS EN SAE-->
+      </collection-sets>
+      <texto-jurAdministrativa><![CDATA[###CPLT-Cuerpo###]]></texto-jurAdministrativa>
+   </cont-documento>
+   </documento>

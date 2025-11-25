@@ -1,0 +1,22 @@
+{
+  "PJCS": "DRIVER={SQL Server};SERVER=c933zaw.intprod.thomsonreuters.com,1600;DATABASE=LOES;UID=intra-netLOES;PWD=Sabado28**",
+  "OPENArena-API_KEY": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlJERTBPVEF3UVVVMk16Z3hPRUpGTkVSRk5qUkRNakkzUVVFek1qZEZOVEJCUkRVMlJrTTRSZyJ9.eyJodHRwczovL3RyLmNvbS9mZWRlcmF0ZWRfdXNlcl9pZCI6IjYxMjI5NTYiLCJodHRwczovL3RyLmNvbS9mZWRlcmF0ZWRfcHJvdmlkZXJfaWQiOiJUUlNTTyIsImh0dHBzOi8vdHIuY29tL2xpbmtlZF9kYXRhIjpbeyJzdWIiOiJvaWRjfHNzby1hdXRofFRSU1NPfDYxMjI5NTYifV0sImh0dHBzOi8vdHIuY29tL2V1aWQiOiJhNGU0ZDM0MC0wNThjLTRlNmMtYjA1MC04MTE5MmNlZTM3NGQiLCJodHRwczovL3RyLmNvbS9hc3NldElEIjoiYTIwODE5OSIsImdpdmVuX25hbWUiOiJBbmliYWwiLCJmYW1pbHlfbmFtZSI6IkNhdGFsZG8iLCJwaWN0dXJlIjoiaHR0cHM6Ly9zLmdyYXZhdGFyLmNvbS9hdmF0YXIvNTA5ZDk5ZmM0YTA2ZTUwNjE5N2E5ZmM2MDA0ODFkZTA_cz00ODAmcj1wZyZkPWh0dHBzJTNBJTJGJTJGY2RuLmF1dGgwLmNvbSUyRmF2YXRhcnMlMkZhbi5wbmciLCJ1cGRhdGVkX2F0IjoxNzEzMjkyNTg1LCJlbWFpbCI6ImFuaWJhbC5jYXRhbGRvQHRob21zb25yZXV0ZXJzLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwiaXNzIjoiaHR0cHM6Ly9hdXRoLnRob21zb25yZXV0ZXJzLmNvbS8iLCJhdWQiOiJ0Z1VWWndYQXFaV1dCeXVzOVFTUGkxeU55b04ybGZsSSIsImlhdCI6MTcxMzI5NjU2OCwiZXhwIjoxNzEzMzMyNTY4LCJzdWIiOiJhdXRoMHw2NTgxOWZhNTU4OTNlZWFmYzdjNDg2NzQiLCJzaWQiOiJsNVUzNm1IRVBwWkswS0pYR0w1dF9mUG1HckxSQ1AyRiIsIm5vbmNlIjoiUzNkbU5HUmpRbjUrWlZFeExpNTNZell5U0drdFFWQkxOSFpyVFVkNlUwdFNVSEJNYVY5NWNVVmhhZz09In0.DwHu-RD3N-nMakRlSAr4zZkh5VzARgxV_1cIk4PANgB6pL1EW7ngHPt_wudbfKrCUmYvpcWcx9ZMJ_lhNQT2RV4pcwPqrJ0kVlBQfRNClsnOPRNpZWdh_j8Hrmk77FQ-zdgHBC9LxdvhiMZk88Im6wt6NXyGd-Gy9528J-eN6fFmpKS07mzZTGOo-CdMG4Ia2_Yv9P-qCvaORZYm9d1rMr6J4zNSxWmP7Gy3_buXn7tEivTQKLEEDzyhX2U1ZgvM8045jDbQAD6QSj_JhKRivF228YfwMJEDr9y4VqcWSiVAxnOxVbTb1iAVztkjYKn4FEkLxRLyYj86qUJdX87hNw",
+  "Analize":{
+    "ModelPath": "c:\\fallos\\py-labpen\\models\\paraphrase-MiniLM-L6-v2",
+    "OpenArenaAgenteId" : "207eca60-8beb-4cb6-9359-17ff58c60f3a",
+    "xlsxVoces": "c:\\Fallos\\py-labpen\\docs\\voces.xlsx",
+    "ponderacionVoces": 0.65,
+
+    "xlsxLegislacion": "c:\\Fallos\\py-labpen\\docs\\legislacion.xlsx",
+    "ponderacionLegislacion": 0.96,
+
+    "xlsxMinistros": "c:\\Fallos\\py-labpen\\docs\\ministros.xlsx",
+    "ponderacionMinistros": 0.35,
+
+    "xlsxRelatores": "c:\\Fallos\\py-labpen\\docs\\relatores.xlsx",
+    "ponderacionRelatores": 0.4,
+
+    "xlsxAbogados": "c:\\Fallos\\py-labpen\\docs\\abogados.xlsx",
+    "ponderacionAbogados": 0.4
+  }
+}      
